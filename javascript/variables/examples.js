@@ -3,12 +3,12 @@
 // b) Weise der Variable name deinen Vornamen als String zu.
 
 let name;
-name = "Colin";
+name = "Mike";
 
 // == Aufgabe 2 ==========
 // a) Erstell eine Variable mit dem Namen lastname und weise dieser deinen Nachnamen als String zu.
 
-let lastname = "Autenrieth";
+let lastname = "Pancake";
 
 
 // == Aufgabe 3 ==========
@@ -30,7 +30,7 @@ let greeting = "Hallo mein Name ist " + fullname + ".";
 // a) Erstell eine Variable mit dem Namen age
 // b) Weise der Variable dein Alter als Zahl (nicht als String) zu.
 
-let age = 22;
+let age = 21;
 
 
 // == Aufgabe 6 ==========
