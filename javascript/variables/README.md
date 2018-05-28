@@ -19,14 +19,14 @@ Einer Variable kann beim Definieren auch gleich ein Wert zugewiesen werden. Hier
 
 ```Javascript
 // Direkte zuweisung eines Wertes nach dem definierung einer Variable
-let name = "Max";
+let name = "Mike";
 let age = 21;
 
 // Weitere möglichkeit: Variable definieren und später Wert zuweisen
 let name;
 let age;
 
-name = "Max";
+name = "Mike";
 age = 21;
 ```
 
@@ -88,14 +88,14 @@ b--; // 4
 Eine Variable welcher ein String zugewiesen wurde, kann durch das Plus (+) Zeichen Erweitert (concatenated/verkettet) werden.
 
 ```Javascript
-let sentence = "Mein Name ist " + "Max Musterman."; // Mein Name ist Max Musterman.
+let sentence = "Mein Name ist " + "Mike Pancake."; // Mein Name ist Mike Pancake.
 ```
 
 Ein String kann auch mit dem Wert einer Variable erweitert werden.
 
 ```Javascript
-let name = "Max";
-let lastname = "Musterman";
+let name = "Mike";
+let lastname = "Pancake";
 let fullname = name + " " + lastname;
 
 let sentence = "Hallo mein Name ist " + fullname + "."; // Hallo mein Name ist Max Musterman.
@@ -104,7 +104,7 @@ let sentence = "Hallo mein Name ist " + fullname + "."; // Hallo mein Name ist M
 Die String Variable kann auch mit dem Wert einer Int (Zahl) Variable erweitert werden.
 
 ```Javascript
-let name = "Max Musterman";
+let name = "Mike Pancake";
 let age = 21;
 let sentence = "Hallo mein Name ist " + name + ", Ich bin " + age + " Jahre alt."; // Hallo mein Name ist Max Musterman, Ich bin 21 Jahre alt.
 ```
